@@ -1,0 +1,30 @@
+/*============================== Configurations ==============================*/
+:root {
+    /*=============== COLORS ===============*/
+    --white-color: hsl(0, 0%, 100%);
+    --light-gray-color: hsl(212, 45%, 89%);
+    --dark-blue-color: hsl(218, 44%, 22%);
+    --grayish-blue-color: hsl(220, 15%, 55%);
+
+    /*=============== BACKGROUNDS ===============*/
+    --page-background: var(--light-gray-color);
+}
+
+/*============================== GENERIC ELEMENTS ==============================*/
+body {
+    background-color: var(--page-background);
+}
+
+p {
+    font-size: 15px;
+}
+
+/*============================== GENERIC CLASSES ==============================*/
+.ff-outfit {
+    font-family: "Outfit", sans-serif;
+}
+
+/*============================== PAGE - TOP TO BOTTOM ==============================*/
+.main-card {
+    max-width: 25rem;
+}
