@@ -8,6 +8,9 @@
 
     /*=============== BACKGROUNDS ===============*/
     --page-background: var(--light-gray-color);
+
+    /*=============== TEXT ===============*/
+    --card-title-color: var(--dark-blue-color);
 }
 
 /*============================== GENERIC ELEMENTS ==============================*/
@@ -27,4 +30,8 @@ p {
 /*============================== PAGE - TOP TO BOTTOM ==============================*/
 .main-card {
     max-width: 25rem;
+}
+
+.card-title {
+    color: var(--card-title-color);
 }
